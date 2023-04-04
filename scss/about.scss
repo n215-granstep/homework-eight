@@ -1,0 +1,32 @@
+.about{
+    background-color: green;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .profile{
+        margin-left: 10%;
+        width: 80%;
+        height: 200px;
+        background-color: black;
+        color: white;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+
+        .pic{
+            width: 160px;
+            height: 180px;
+            background-image: url(../images/natureGuy.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .info{
+            width: 70%;
+            margin-right: 10px;
+        }
+    }
+}
